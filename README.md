@@ -89,7 +89,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [babatundejubril@gmail.com](mailto:babatundejubril@gmail.com)
+Babatunde Jubril - [babatundejubril@gmail.com](mailto:babatundejubril@gmail.com)
 
 Project Link: [https://github.com/tjibbs/ALX-Portfolio-Project](https://github.com/tjibbs/ALX-Portfolio-Project)
 
