@@ -57,7 +57,7 @@ function App() {
     },
     {
       id: 3,
-      question: "Which of the following does Allah says the Quran gives us?",
+      question: "Which of the following does Allah say the Quran gives us?",
       answers: [
         {
           text: "Life",
@@ -77,7 +77,162 @@ function App() {
         },
       ],
     },
+    {
+      id: 4,
+      question: "Who is the fourth of the rightly-guided Caliph after the life of Prophet Muhammad (PBUH)?",
+      answers: [
+        {
+          text: "Uthman Bin Affan",
+          correct: false,
+        },
+        {
+          text: "Ali Bin Abu Talib",
+          correct: true,
+        },
+        {
+          text: "Omar Bin Al-Khattab",
+          correct: false,
+        },
+        {
+          text: "Abu Bakr Al-Siddiq",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 5,
+      question: "Which of the companions was a paternal uncle of the Prophet, and was considered as a strong personality both in character and in physique?",
+      answers: [
+        {
+          text: "Hamzah lbn Abdul Muttalib",
+          correct: true,
+        },
+        {
+          text: "Abdul Muttalib",
+          correct: false,
+        },
+        {
+          text: "Abu Talib",
+          correct: false,
+        },
+        {
+          text: "None of the above",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 6,
+      question: "What does Islam state about equality in justice?",
+      answers: [
+        {
+          text: "Islam prescribes to render justice to friends and foes alike, in a just manner",
+          correct: false,
+        },
+        {
+          text: "Islam mentions that the hatred between people should not influence justice",
+          correct: false,
+        },
+        {
+          text: "Islam forbids injustice in all means",
+          correct: false,
+        },
+        {
+          text: "All the above",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 7,
+      question: "What is the Islamic concept for the community consensus called?",
+      answers: [
+        {
+          text: "Aashura",
+          correct: false,
+        },
+        {
+          text: "Ijma",
+          correct: true,
+        },
+        {
+          text: "There is no consensus required",
+          correct: false,
+        },
+        {
+          text: "None of the above",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 8,
+      question: "Does Islam permit the free practice of other religions and religious tolerance?",
+      answers: [
+        {
+          text: "Other religions cannot be practised in an Islamic State",
+          correct: false,
+        },
+        {
+          text: "There is no religious harmony in Islam",
+          correct: false,
+        },
+        {
+          text: "Islam permits religious harmony, freedom and religious tolerance",
+          correct: true,
+        },
+        {
+          text: "None of the above",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 9,
+      question: "What is the first right of the wife?",
+      answers: [
+        {
+          text: "Mahr (obligatory dowry) from husband to wife is considered as the first right of the wife",
+          correct: true,
+        },
+        {
+          text: "Shelter is the first right of the wife",
+          correct: false,
+        },
+        {
+          text: "Feeding is the first right of the wife",
+          correct: false,
+        },
+        {
+          text: "All of the above",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 10,
+      question: "Who are mentioned as garments for one another in the Quran?",
+      answers: [
+        {
+          text: "The father is the garment for a daughter",
+          correct: false,
+        },
+        {
+          text: "The mother is the garment for a daughter",
+          correct: false,
+        },
+        {
+          text: "Daughters are garments for parents",
+          correct: false,
+        },
+        {
+          text: "The husband is the garment for the wife and the wife a garment for the husband",
+          correct: true,
+        },
+      ],
+    },
   ];
+  
 
   const moneyPyramid = useMemo(
     () =>
